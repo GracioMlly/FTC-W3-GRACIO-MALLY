@@ -1,13 +1,733 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/assets/css/reset.css" />
+    <link rel="stylesheet" href="./src/assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Monito</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <header>
+        <div class="wrapper">
+          <nav>
+            <div class="navbar-links">
+              <div>
+                <img
+                  src="./src/assets/images/monito-brand-logo.svg"
+                  alt="monito logo"
+                />
+              </div>
+
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-cta">
+              <form>
+                <button>
+                  <img
+                    src="./src/assets/images/search-icon.svg"
+                    alt="#"
+                  /></button
+                ><input type="text" />
+              </form>
+
+              <a class="pill" href="#">Join the community</a>
+
+              <button>
+                <div>
+                  <img src="./src/assets/images/country-icon.svg" alt="#" />vnd
+                </div>
+                <img src="./src/assets/images/arrow-down-icon.svg" alt="#" />
+              </button>
+            </div>
+          </nav>
+
+          <div class="hero">
+            <div class="hero__content">
+              <h1>
+                <span>one more friend</span> <span>thousands more fun</span>
+              </h1>
+
+              <p>
+                Having a pet means you have more joy, a new friend, a happy
+                person who will always be with you to have fun. We have 200+
+                different pets that can meet your needs!
+              </p>
+
+              <div class="hero__content__links">
+                <a class="pill" href="#"
+                  >view intro<img
+                    src="./src/assets/images/media-play-circle-icon.svg"
+                    alt="#"
+                /></a>
+                <a class="pill" href="#">explore now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="new">
+          <div class="new__heading">
+            <div>
+              <h2>take a look at some of our pets</h2>
+              <p>What's new</p>
+            </div>
+
+            <a class="pill" href="#"
+              >View more<img
+                src="./src/assets/images/chevron-right-icon.svg"
+                alt="#"
+            /></a>
+          </div>
+
+          <ul class="new__pets">
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-1.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO231 - Pomeranian White</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Male</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>6.900.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-2.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO502 - Poodle Tiny Yellow</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Female</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>3.900.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-3.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO102 - Poodle Tiny Sepia</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Male</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>4.000.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-4.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO512 - Alaskan Malamute Grey</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Male</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>8.900.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-5.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO231 - Pembroke Corgi Cream</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Male</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>7.900.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-6.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO502 - Pembroke Corgi Tricolor</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Female</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>9.000.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-7.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO231 - Pomeranian White</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Female</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>6.500.000 vnd</p>
+                </div>
+              </article>
+            </li>
+
+            <li>
+              <article class="card">
+                <div class="card__picture">
+                  <img src="./src/assets/images/pet-8.png" alt="A pet" />
+                </div>
+
+                <div class="card__info">
+                  <p>MO512 - Poodle Tiny Dairy Cow</p>
+
+                  <div>
+                    <p><span>Gene:</span> <span>Male</span></p>
+                    <p><span>Age:</span> <span>02 months</span></p>
+                  </div>
+
+                  <p>5.000.000 vnd</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+
+          <div class="new__banner">
+            <div class="new__banner__content">
+              <p>
+                <span>one more friend</span> <span>thousands more fun</span>
+              </p>
+
+              <p>
+                Having a pet means you have more joy, a new friend, a happy
+                person who will always be with you to have fun. We have 200+
+                different pets that can meet your needs!
+              </p>
+
+              <div class="new__banner__links">
+                <a class="pill" href="#"
+                  >view intro<img
+                    src="./src/assets/images/media-play-circle-icon.svg"
+                    alt="#"
+                /></a>
+                <a class="pill" href="#">explore now</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="our-products">
+          <div class="wrapper">
+            <div class="our-products__heading">
+              <div>
+                <h2>our products</h2>
+                <p>Hard to choose right products for your pets?</p>
+              </div>
+
+              <a class="pill" href="#"
+                >View more<img
+                  src="./src/assets/images/chevron-right-icon.svg"
+                  alt="#"
+              /></a>
+            </div>
+
+            <ul class="products">
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-1.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Reflex Plus Adult Cat Food Salmon</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Dog Food</span></p>
+                      <p><span>Size:</span> <span>385mg</span></p>
+                    </div>
+
+                    <p>140.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Toy & Free Shaker
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-2.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Reflex Plus Adult Cat Food Salmon</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Cat Food</span></p>
+                      <p><span>Size:</span> <span>1.5kg</span></p>
+                    </div>
+
+                    <p>165.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Toy & Free Shaker
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-3.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Cat Scratching ball toy kitten sisal rope ball</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Toy</span></p>
+                    </div>
+
+                    <p>1.100.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Cat Food
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-4.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Cute Pet Warm Nest</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Toy</span></p>
+                    </div>
+
+                    <p>410.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Cat Food
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-5.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>NaturVet Dogs - Omega-Gold Plus Salmon Oil</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Dog Food</span></p>
+                      <p><span>Size:</span> <span>385mg</span></p>
+                    </div>
+
+                    <p>350.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Toy & Free Shaker
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-6.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Costumes Fashion Pet Clother Cowboy Rider</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Costume</span></p>
+                      <p><span>Size:</span> <span>1.5kg</span></p>
+                    </div>
+
+                    <p>500.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Toy & Free Shaker
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-7.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Costumes Chicken Drumstick Headband</p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Costume</span></p>
+                    </div>
+
+                    <p>400.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Cat Food
+                    </p>
+                  </div>
+                </article>
+              </li>
+
+              <li>
+                <article class="card">
+                  <div class="card__picture">
+                    <img
+                      src="./src/assets/images/product-8.png"
+                      alt="A product"
+                    />
+                  </div>
+
+                  <div class="card__info">
+                    <p>Plush Pet Toy/p></p>
+
+                    <div>
+                      <p><span>Product:</span> <span>Toy</span></p>
+                    </div>
+
+                    <p>250.000 vnd</p>
+
+                    <p>
+                      <img
+                        src="./src/assets/images/present-icon.svg"
+                        alt="#"
+                      />Free Toy & Free Shaker
+                    </p>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="sellers">
+          <div class="wrapper">
+            <div class="sellers__heading">
+              <h2>Proud to be part of <span>Pet Sellers</span></h2>
+
+              <a class="pill" href="#"
+                >View all our sellers<img
+                  src="./src/assets/images/chevron-right-icon.svg"
+                  alt="#"
+              /></a>
+            </div>
+
+            <div class="sellers__brands">
+              <div>
+                <img
+                  src="./src/assets/images/sheba-logo.svg"
+                  alt="Sheba brand"
+                />
+              </div>
+              <div>
+                <img
+                  src="./src/assets/images/whiskas-logo.svg"
+                  alt="Whiskas brand"
+                />
+              </div>
+              <div>
+                <img
+                  src="./src/assets/images/bakers-logo.svg"
+                  alt="Bakers brand"
+                />
+              </div>
+              <div>
+                <img
+                  src="./src/assets/images/felix-logo.svg"
+                  alt="Felix brand"
+                />
+              </div>
+              <div>
+                <img
+                  src="./src/assets/images/goodBoy-logo.svg"
+                  alt="Good Boy brand"
+                />
+              </div>
+              <div>
+                <img
+                  src="./src/assets/images/butcher-logo.svg"
+                  alt="Butcher's brand"
+                />
+              </div>
+              <div>
+                <img
+                  src="./src/assets/images/pedigree-logo.svg"
+                  alt="Pedigree brand"
+                />
+              </div>
+            </div>
+
+            <div class="sellers__banner">
+              <div class="sellers__banner__content">
+                <p>
+                  <span>adoption</span> <span>we need help. so do they.</span>
+                </p>
+
+                <p>
+                  Adopt a pet and give it a home, it will be love you back
+                  unconditionally.
+                </p>
+
+                <div class="sellers__banner__links">
+                  <a href="#">explore now</a>
+                  <a href="#"
+                    >view intro<img
+                      src="./src/assets/images/media-play-circle-icon.svg"
+                      alt="#"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="knowledge">
+          <div class="wrapper">
+            <div class="knowledge__heading">
+              <div>
+                <h2>useful pet knowledge</h2>
+                <p>You already know ?</p>
+              </div>
+
+              <a class="pill" href="#"
+                >View more<img
+                  src="./src/assets/images/chevron-right-icon.svg"
+                  alt="#"
+              /></a>
+            </div>
+
+            <div class="pet-knowledges">
+              <article class="pet-knowledge">
+                <div class="cover">
+                  <img src="./src/assets/images/knowledge-1.png" alt="cover" />
+                </div>
+                <div class="content">
+                  <h3>What is a Pomeranian? How to Identify Pomeranian Dogs</h3>
+                  <p class="badge">Pet knowledge</p>
+                  <p>
+                    The Pomeranian, also known as the Pomeranian (Pom dog), is
+                    always in the top of the cutest pets. Not only that, the
+                    small, lovely, smart, friendly, and skillful circus dog
+                    breed.
+                  </p>
+                </div>
+              </article>
+
+              <article class="pet-knowledge">
+                <div class="cover">
+                  <img src="./src/assets/images/knowledge-2.png" alt="cover" />
+                </div>
+                <div class="content">
+                  <h3>Dog Diet You Need To Know</h3>
+                  <p class="badge">Pet knowledge</p>
+                  <p>
+                    Dividing a dog's diet may seem simple at first, but there
+                    are some rules you should know so that your dog can easily
+                    absorb the nutrients in the diet. For those who are just
+                    starting to raise dogs, especially newborn puppies with
+                    relatively weak resistance.
+                  </p>
+                </div>
+              </article>
+
+              <article class="pet-knowledge">
+                <div class="cover">
+                  <img src="./src/assets/images/knowledge-3.png" alt="cover" />
+                </div>
+                <div class="content">
+                  <h3>
+                    Why Dogs Bite and Destroy Furniture and How to Prevent It
+                    Effectively
+                  </h3>
+                  <p class="badge">Pet knowledge</p>
+                  <p>
+                    Dog bites are common during development. However, no one
+                    wants to see their furniture or important items being bitten
+                    by a dog.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="wrapper">
+          <div class="footer__upper">
+            <div class="register">
+              <p>Register now so you don't miss our programs</p>
+
+              <form>
+                <input type="text" placeholder="Enter your Email" />
+                <button>Subscribe now</button>
+              </form>
+            </div>
+
+            <div class="footer__links">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+
+              <div class="socials">
+                <a href="#"
+                  ><img
+                    src="./src/assets/images/Facebook-Negative-icon.svg"
+                    alt="#"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./src/assets/images/Twitter-Negative-icon.svg"
+                    alt="#"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./src/assets/images/Instagram-Negative-icon.svg"
+                    alt="#"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="./src/assets/images/YouTube-Negative-icon.svg"
+                    alt="#"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <small>&copy;2022 Monito. All rights reserved.</small>
+
+            <img
+              src="./src/assets/images/monito-brand-logo.svg"
+              alt="monito logo"
+            />
+
+            <div>
+              <a href="#">Terms of Service</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
