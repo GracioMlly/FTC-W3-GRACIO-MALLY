@@ -1,0 +1,35 @@
+:root {
+  /* Color styles */
+  --primary--color---dark--blue: rgba(0, 52, 89, 1);
+  --primary--color---dark--blue-80: rgba(0, 42, 72, 1);
+  --primary--color---dark--blue-60: rgba(0, 82, 140, 1);
+  --primary--color---dark--blue-40: rgba(0, 120, 205, 1);
+  --secondary--color---mon--yellow: rgba(247, 219, 167, 1);
+  --secondary--color---mon--yellow-80: rgba(238, 199, 126, 1);
+  --secondary--color---mon--yellow-60: rgba(241, 208, 146, 1);
+  --secondary--color---mon--yellow-40: rgba(252, 238, 213, 1);
+  --state--color---pink--red: rgba(255, 86, 79, 1);
+  --state--color---green--light: rgba(52, 199, 89, 1);
+  --state--color---orange--shine: rgba(255, 145, 44, 1);
+  --state--color---blue--sea: rgba(0, 167, 231, 1);
+  --neutral--color--100: rgba(0, 23, 31, 1);
+  --neutral--color--80: rgba(36, 43, 51, 1);
+  --neutral--color--60: rgba(102, 116, 121, 1);
+  --neutral--color--40: rgba(153, 162, 165, 1);
+  --neutral--color--20: rgba(204, 209, 210, 1);
+  --neutral--color--10: rgba(235, 238, 239, 1);
+  --neutral--color--00: rgba(253, 253, 253, 1);
+
+  /* Text-size styles */
+  /* base size: body--16px (16px) */
+  --heading--46px: 2.88rem;
+  --heading--36px: 2.25rem;
+  --heading--28px: 1.75rem;
+  --heading--24px: 1.5rem;
+  --body--20px: 1.25rem;
+  --body--16px: 1rem;
+  --body--14px: 0.88rem;
+  --body--12px: 0.75rem;
+  --body--10px: 0.62rem;
+  --body--08px: 0.5rem;
+}
